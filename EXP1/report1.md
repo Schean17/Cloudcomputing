@@ -1,5 +1,7 @@
 
 
+
+
 # 实验一
 
 ## 购买腾讯云服务器并登陆
@@ -62,7 +64,7 @@
 
   ![](report1.assets/remote-v.png)
 
-  首先从远程代码仓库拉取数据![]()
+  首先从远程代码仓库拉取数据![](report1.assets/1568788183634.png)
 
   
 
@@ -92,8 +94,12 @@
 
 3. 进入安装界面选择最小安装并设置root密码![](report1.assets/inscentos.png)
 
-4. 以root用户登陆系统，安装完成![](report1.assets/logincentos.png)
+4. 以root用户登陆系统，安装完成
 
+   ![](report1.assets/logincentos.png)
+   
+   
+   
    
 
 
