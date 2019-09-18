@@ -8,21 +8,19 @@
 
 - 前往腾讯云学生计划购买服务器https://cloud.tencent.com/act/campus
 
-  ![](E:\gitstorage\Cloudcomputing\EXP1\buycvm.png)
+  ![](report1.assets/buycvm.png)
 
 - 使用Xshell提供的家庭/校园免费版本
 
-  ![](E:\gitstorage\Cloudcomputing\EXP1\dwxsheel.png)
+  ![](report1.assets/dwxsheel.png)
 
 
 
 - 使用Xsheel登陆
 
-![](E:\gitstorage\Cloudcomputing\EXP1\loginwithxsheel.png)
+![](report1.assets/loginwithxsheel.png)
 
-![](E:\gitstorage\Cloudcomputing\EXP1\loginwithxsheel2.png)
-
-
+![](report1.assets/loginwithxsheel2.png)
 
 
 
@@ -42,17 +40,15 @@
 
   若不存在则使用ssh-keygen -t rsa -b 4096 -C “your_email@example.com”命令通过rsa加密创建密钥
 
-![](E:\gitstorage\Cloudcomputing\EXP1\checklocalssh.png)
+![](report1.assets/checklocalssh.png)
 
 ​       随后复制“id_rsa.pub”的内容到GitHub网站的Settings–>SSH and GPG keys中
 
-​	![](E:\gitstorage\Cloudcomputing\EXP1\addpublickeytogithub-1.png)
+![](report1.assets/addpublickeytogithub-1.png)
 
 - 检测ssh密钥是否配置成功
 
-![](E:\gitstorage\Cloudcomputing\EXP1\checksshconnect.png)
-
-
+![](report1.assets/checksshconnect.png)
 
 ### 创建GitHub项目并在本地进行同步
 
@@ -64,23 +60,23 @@
 
   添加远程代码仓库的URL，并通过git remote -v命令检验是否成功
 
-  ![](E:\gitstorage\Cloudcomputing\EXP1\remote-v.png)
+  ![](report1.assets/remote-v.png)
 
-  首先从远程代码仓库拉取数据
+  首先从远程代码仓库拉取数据![]()
 
   
 
-  新建readme文档并提交文件到本地仓库
+  新建readme文档并提交文件到本地仓库![](report1.assets/createreadme&commit.png)
 
-  ![](E:\gitstorage\Cloudcomputing\EXP1\createreadme&commit.png)
+  
 
 
 
-​		推送本地更新到远程服务器
+​		推送本地更新到远程服务器![](report1.assets/pushtoremote.png)
 
-​		![](E:\gitstorage\Cloudcomputing\EXP1\pushtoremote.png)
+​		
 
-![](E:\gitstorage\Cloudcomputing\EXP1\pushresult.png)
+![](report1.assets/pushresult.png)
 
 ​	
 
