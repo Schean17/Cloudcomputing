@@ -23,7 +23,7 @@ start httpd.service
 
 若运行正常，将出现如下界面：
 
-
+![1569505238031](README.assets/1569505238031.png)
 
 
 
@@ -39,7 +39,7 @@ sudo yum install mariadb-server mariadb
 
 安装好之后，启动mariadb：
 
-安装好之后，启动mariadb：
+
 
 ```
 sudo systemctl start mariadb
@@ -48,7 +48,7 @@ sudo systemctl start mariadb
 
 随后，运行简单的安全脚本以移除潜在的安全风险，启动交互脚本：
 
-随后，运行简单的安全脚本以移除潜在的安全风险，启动交互脚本：
+
 
 ```
 sudo mysql_secure_installation
@@ -99,8 +99,6 @@ php -v
 ![1569380679240](README.assets/1569380679240.png)
 安装之后，重启Apache服务器以支持PHP：
 
-安装之后，重启Apache服务器以支持PHP：
-
 ```
 sudo systemctl restart httpd.service
 ```
@@ -109,8 +107,7 @@ sudo systemctl restart httpd.service
 安装PHP模块
 为了更好的运行PHP，需要启动PHP附加模块，使用如下命令可以查看可用模块：
 
-安装PHP模块
-为了更好的运行PHP，需要启动PHP附加模块，使用如下命令可以查看可用模块：
+
 
 ```
 yum search php-
@@ -244,7 +241,7 @@ nano wp-config.php
 
 将文件中的DB_NAME，DB_USER和DB_PASSWORD更改成之前为WordPress创建的数据库的相关信息，这三处信息是当前唯一需要修改的。
 
-![1569380057379](README.assets/1569380057379.png![1569380098380](README.assets/1569380098380.png)
+![1569380098380](README.assets/1569380098380.png)
 
 ### (4)通过Web界面进一步配置WordPress
 
@@ -262,3 +259,9 @@ http://server_domain_name_or_IP
 输入用户名和密码之后，进入WordPress的控制面板：
 
 ![1569379709058](README.assets/1569379709058.png)
+
+
+
+使用基于MDUI框架的MDx模板
+
+![1570589348140](README.assets/1570589348140.png)
