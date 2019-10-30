@@ -26,4 +26,5 @@
 
 
 
-[实验三 CentOS 7安装Docker]( [https://github.com/Schean17/Cloudcomputing/tree/master/Docker_ins#centos-7%E5%AE%89%E8%A3%85docker](https://github.com/Schean17/Cloudcomputing/tree/master/Docker_ins#centos-7安装docker) )
+[实验三 在Centos上安装Docker]( https://github.com/Schean17/Cloudcomputing/tree/master/Docker_ins )
+
