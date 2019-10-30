@@ -243,7 +243,8 @@ http://your_cvm_ip/info.php
 
 
 
+*远程推送的一点小问题*
 
+推数的时候会一直preparing无进展（挂了一个晚上还是在preparing，只好用上次推上去的截图了）
 
-[^推送远程的一点小问题]: ![image-20191030100402460](README.assets/image-20191030100402460.png)推数的时候会一直preparing无进展（挂了一个晚上还是在preparing，只好用上次推上去的截图了）
-
+![image-20191030100402460](README.assets/image-20191030100402460.png)
