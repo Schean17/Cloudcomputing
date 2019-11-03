@@ -221,30 +221,43 @@ http://your_cvm_ip/info.php
 
 ## 提交带有wordpress的容器
 
+由于Dockhub仓库位于境外，出口上行带宽较小，因而选择国内的仓库
+
+登陆到远程仓库
+
+![image-20191102210559802](README.assets/image-20191102210559802.png)
+
+![image-20191102210608883](README.assets/image-20191102210608883.png)
+
 提交到本地仓库
 
-![image-20191029233103944](README.assets/image-20191029233103944.png)
+```
+docker commit [OPTIONS] CONTAINER [REPOSITORY[:TAG]]
+```
 
-![image-20191029233227149](README.assets/image-20191029233227149.png)
+![image-20191102210403176](README.assets/image-20191102210403176.png)
+
+
 
 
 
 更改tag
 
-![image-20191029233428512](README.assets/image-20191029233428512.png)
+```
+docker tag [image id] [remoterepository/username/imagename]:[tag]
+```
+
+![image-20191102210434356](README.assets/image-20191102210434356.png)
 
 ### 推送到远程仓库
 
+```
+docker push [remoterepository/username/imagename]:[tag]
+```
+
+![image-20191102210450402](README.assets/image-20191102210450402.png)
+
+![image-20191102210531311](README.assets/image-20191102210531311.png)
 
 
-![image-20191029234202791](README.assets/image-20191029234202791.png)
 
-![image-20191030100148533](README.assets/image-20191030100148533.png)
-
-
-
-*远程推送的一点小问题*
-
-推数的时候会一直preparing无进展（挂了一个晚上还是在preparing，只好用上次推上去的截图了）
-
-![image-20191030100402460](README.assets/image-20191030100402460.png)
