@@ -2,29 +2,6 @@
 
 # CentOS 7安装Docker
 
-
-
-- [CentOS 7安装Docker](#centos-7--docker)
-  * [安装 Docker-CE](#---docker-ce)
-  * [加载Docker镜像](#--docker--)
-  * [运行Docker容器](#--docker--)
-  * [提交带有wordpress的容器](#----wordpress---)
-  * [推送到远程仓库](#-------)
-- [使用Dockerfile安装wordpress](#--dockerfile--wordpress)
-  * [安装apache web服务器](#--apache-web---)
-    + [Dockerfile内容：](#dockerfile---)
-  * [安装MySQL](#--mysql)
-    + [Dockerfile内容：](#dockerfile----1)
-    + [文件内容如下：](#-------)
-  * [安装PHP](#--php)
-  * [安装wordpress](#--wordpress)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
-
-
 - 已安装CentOS 7，并且内核版本大等于3.10，本文使用的是阿里云的镜像：[CentOS镜像](http://mirrors.aliyun.com/centos/7/isos/x86_64/)。
 - 非root用户已获得sudo特权。
 
