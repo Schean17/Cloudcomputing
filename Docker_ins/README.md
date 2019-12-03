@@ -2,6 +2,10 @@
 
 # CentOS 7安装Docker
 
+[TOC]
+
+
+
 - 已安装CentOS 7，并且内核版本大等于3.10，本文使用的是阿里云的镜像：[CentOS镜像](http://mirrors.aliyun.com/centos/7/isos/x86_64/)。
 - 非root用户已获得sudo特权。
 
@@ -50,7 +54,7 @@ yum install -y yum-utils device-mapper-persistent-data lvm2
 
 
 
-### 安装 Docker-CE
+## 安装 Docker-CE
 
 ```
 yum install docker-ce
@@ -251,7 +255,7 @@ docker tag [image id] [remoterepository/username/imagename]:[tag]
 
 ![image-20191102210434356](README.assets/image-20191102210434356.png)
 
-### 推送到远程仓库
+## 推送到远程仓库
 
 ```
 docker push [remoterepository/username/imagename]:[tag]

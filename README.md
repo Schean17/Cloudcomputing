@@ -28,3 +28,6 @@
 
 [实验三 在Centos上安装Docker]( https://github.com/Schean17/Cloudcomputing/tree/master/Docker_ins )
 
+
+
+[实验三-2 使用Dockerfile安装Wordpress]( https://github.com/Schean17/Cloudcomputing/tree/master/Dockerfile )
